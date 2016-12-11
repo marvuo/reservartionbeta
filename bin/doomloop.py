@@ -1,8 +1,10 @@
 i = 0
-n = 1
-while True:
-    i = i**2+1
+n = 0
+i = int(raw_input("Anna korkoa korolle startti summa: "))
+kierros = int(raw_input("Anna halttujen vuosien lkm: "))
+while n < kierros:
+    i = i*1,1
     print i
     n += 1
-    print ("round ", n)
+    print ("Korkoa korolle kierros ", i)
     
